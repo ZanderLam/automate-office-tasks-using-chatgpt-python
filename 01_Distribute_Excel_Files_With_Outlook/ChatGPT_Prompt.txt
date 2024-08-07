@@ -21,6 +21,30 @@ git push -u origin main
 git remote add origin https://github.com/ZanderLam/automate-office-tasks-using-chatgpt-python.git
 cd automate-office-tasks-using-chatgpt-python
 git add .
+git status -s
 git commit -m "Add initial project files"
 git push origin main
+
+
+git remote set-url origin https://github.com/ZanderLam/automate-office-tasks-using-chatgpt-python.git    # Change the Existing Remote from `wrong file` to `correct file`, automate-office-tasks-using-chatgpt-python
+git remote -v
+git status
+git add .
+git commit -m "Add initial files"
+git push origin main
+
+###################################################################################################################
+git remote add new-origin https://github.com/ZanderLam/automate-office-tasks-using-chatgpt-python.git
+git remote -v
+git status
+
+git add .
+git rm --cached 01_Distribute_Excel_Files_With_Outlook/ChatGPT_Prompt.txt
+
+git add 01_Distribute_Excel_Files_With_Outlook
+git add 02_Automate_PowerPoint
+git add 03_Create_Interactive_Chart_From_Excel
+git add 04_Merge_PDF
+git add 05_Create_Website
+git push -u new-origin main
 
