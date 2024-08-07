@@ -1,0 +1,10 @@
+Here is the chat history for the task: https://chatgpt-static.s3.amazonaws.com/chats/uf98915.html
+
+##################################
+Create a Python script that:
+
+- Takes in the paths for the "cover" and "draft" folders as inputs.
+- Iterates through the PDFs in both folders and match the files based on their numeric key (e.g. "1.pdf" from the cover folder with "1 - Letter of Approval.pdf" from the draft folder).
+- Merges the matching files in the order of cover PDF first and draft PDF second, and all following pages.
+- Saves the merged PDFs to a new "output" folder.
+- The merged PDF's file name should be kept the same as the original file name in the draft folder

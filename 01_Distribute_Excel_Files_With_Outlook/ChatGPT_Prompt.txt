@@ -1,0 +1,18 @@
+Here is the chat history for the task: https://chatgpt-static.s3.amazonaws.com/chats/tx61280.html
+
+
+########################################################################################################################################
+Create a Python script that 
+- reads data from the sheet "Email_List" in an Excel workbook called "Financial_Data.xlsx".
+- The script should use the data in columns A, B, C and D 
+        (headers: "Attachment File", "Recipient Name", "Recipient Email" and "CC Email", respectively) to compose and open Outlook emails with different attachments and recipients. 
+- The script should locate the attachments in a folder called "Attachments" located in the same directory as the Excel workbook and construct the file path to the attachments.
+- The script should use the recipient name from Column B in the email text, and the recipient and CC email addresses from Columns C and D respectively.
+- The script should open Outlook emails but should not send them until further actions are taken. Make the Python code robust.
+
+
+
+
+git remote add origin https://github.com/ZanderLam/codingnote1.git
+git branch -M main
+git push -u origin main
